@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+		<title>Assignment- Module 2</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<style type="text/css">
+
+	/********** Base styles **********/	
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	margin: 15px;
+	text-align: center;
+	font-size: 150%;
+}
+
+.box {
+	border: 1px solid black;
+	background-color: #ee82ee;
+	margin: 5px 10px 15px 10px;
+}
+
+.box-heading {
+	float: right;
+	position: relative;
+	right: -1px;
+	top: -1px;
+	min-width: 130px;
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	padding: 5px;
+	color: #000000;
+	font-size: 125%;
+}
+
+.box-heading-1 {
+	background-color: #3cb371;
+}
+
+.box-heading-2 {
+	background-color: #6a5acd;
+}
+
+.box-heading-3 {
+	background-color: #ffa500;
+}
+
+.box-content {
+	clear: right;
+	height: 300px;
+	text-align: justify;
+	width: 95%;	
+	padding-right: 5%;	
+	margin-right: 0px;
+	margin-left: auto;
+	margin-top:10px;
+	color: solid black;
+	overflow: auto;
+}
+
+.p {
+	border: 1px solid black;
+	background-color: #000000;
+	font-family: Helvetica;
+}
+
+.row {
+	width: 100%;
+}
+
+/*** Desktop [992,...) ***/
+@media (min-width: 992px) {
+	.col-d-1, .col-d-2, .col-d-3 {
+		float: left;
+		/*border: 1px solid green;*/
+	}
+	.col-d-1 {
+		width: 33.33%;
+	}
+	.col-d-2 {
+		width: 66.66%;
+	}
+	.col-d-3 {
+		width: 100%;
+	}
+}
+
+/*** Tablet [768,...,991] ***/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-t-1, .col-t-2 {
+		float: left;
+		/*border: 1px solid green;*/
+	}
+	.col-t-1 {
+		width: 50%;
+	}
+	.col-t-2 {
+		width: 100%;
+	}
+}
+
+/*** Mobile (...,767] ***/
+@media (max-width: 767px) {
+	.col-m-1 {
+		float: left;
+		/*border: 1px solid green;*/
+		width: 100%;
+	}
+}</style>
+	<body>
+		<h1>Our Menu</h1>
+		<div class="row">		
+		<div class="col-d-1 col-t-1 col-m-1">
+			<section class="box">
+				<h3 class="box-heading box-heading-1">Chicken</h3>
+				<p class="box-content">Chicken and fish have less saturated fat than most red meat. The unsaturated fats in fish, such as salmon, actually have health benefits. Omega-3 fatty acids, found in fish and some plant sources, may reduce the risk of cardiovascular disease. Beans don't contain cholesterol, only animal products do.Saturated fat is present in all meat and fish, even chicken and turkey cooked without the skin.People who eat high amounts of animal protein are 22 percent more likely to develop diabetes.Nutritional value of chicken. While chicken is a lean meat with loads of proteins, it is also high on cholesterol. However, chicken provides selenium which contains antioxidants that help control free radicals and improve your immune system. A 100gms of cooked chicken would usually contain 239 calories</p>
+			</section>
+		</div>
+		<div class="col-d-1 col-t-1 col-m-1">
+			<section class="box">
+				<h3 class="box-heading box-heading-2">Beef</h3>
+				<p class="box-content">Here are my six reasons to include meat in your diet: It's healthy. There are 29 lean cuts of beef, according to USDA standards. Beef provides nutrients like zinc, iron, protein and B vitamins, and half of the fat found in beef is monounsaturated, the same heart-healthy fats found in olive oil.Some red meats are high in saturated fat, which raises blood cholesterol. High levels of LDL cholesterol increase the risk of heart disease.In moderation and as part of a balanced and varied diet, beef is good for you, especially so if it is lean and grass-fed. ... And of all the popular sources of protein, beef is one of the most nutrient-rich, with at least 10 other essential nutrients including iron and zinc</p>
+			</section>
+		</div>
+		<div class="col-d-1 col-t-2 col-m-1">
+			<section class="box">
+				<h3 class="box-heading box-heading-3">Sushi</h3>
+				<p class="box-content">Essentially, sushi is something with rice mixed with vinegar. ... The bottom line is that sushi can be quite healthy or unhealthy depending on what ingredients are used, how it is prepared and how much you eat. Fresh fish, particularly salmon, trout and tuna, can have plenty of protein and omega-3 fatty acids.Having this as part of your meal along with some sashimi can increase your vegetable and fiber intake with the meal, which can help you feel full longer after the meal.Most people rate sushi as healthy, and it can be, but it all depends on what you order. “Traditional” sushi rolls made with steamed rice, ultra lean fish and veggies provide about 200 calories per roll, but many rolls easily pack 500 or more calories.</p>
+			</section>
+		</div>
+		</div>
+	</body>
+</html>
